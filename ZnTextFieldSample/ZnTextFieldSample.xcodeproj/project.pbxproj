@@ -14,6 +14,7 @@
 		9B0E11EC22FCF2D400E57C62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0E11EA22FCF2D400E57C62 /* LaunchScreen.storyboard */; };
 		9B0E11F722FCF2D400E57C62 /* ZnTextFieldSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0E11F622FCF2D400E57C62 /* ZnTextFieldSampleTests.swift */; };
 		9B0E120222FCF2D400E57C62 /* ZnTextFieldSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0E120122FCF2D400E57C62 /* ZnTextFieldSampleUITests.swift */; };
+		9BD3360E23016C390018BCAD /* ZnTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD3360D23016C390018BCAD /* ZnTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9B0E11FD22FCF2D400E57C62 /* ZnTextFieldSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZnTextFieldSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0E120122FCF2D400E57C62 /* ZnTextFieldSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZnTextFieldSampleUITests.swift; sourceTree = "<group>"; };
 		9B0E120322FCF2D400E57C62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD3360D23016C390018BCAD /* ZnTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZnTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				9B0E11E822FCF2D400E57C62 /* Assets.xcassets */,
 				9B0E11EA22FCF2D400E57C62 /* LaunchScreen.storyboard */,
 				9B0E11ED22FCF2D400E57C62 /* Info.plist */,
+				9BD3360D23016C390018BCAD /* ZnTextField.swift */,
 			);
 			path = ZnTextFieldSample;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				9B0E11E422FCF2D300E57C62 /* ViewController.swift in Sources */,
 				9B0E11E222FCF2D300E57C62 /* AppDelegate.swift in Sources */,
+				9BD3360E23016C390018BCAD /* ZnTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,13 +8,42 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, ZnTextFieldDelegate {
 
+    @IBOutlet weak var textField: ZnTextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.textField.delegate = self
     }
 
+    func ZnTextFieldShouldBeginEditing() -> Bool {
+        print("ViewController ZnTextFieldShouldBeginEditing")
+        return true
+    }
+    
+    func ZnTextFieldDidBeginEditing() {
+        print("ViewController ZnTextFieldDidBeginEditing")
+        
+    }
+    
+    func ZnTextFieldShouldEndEditing() -> Bool {
+        print("ViewController ZnTextFieldShouldEndEditing")
+        return true
+    }
+    
+    func ZnTextFieldDidEndEditing() {
+        print("ViewController ZnTextFieldDidEndEditing")
+        let text = self.textField.text
+        print("text : \(text)")
+        
+    }
+    
+    func ZnTextFieldShouldReturn(_ textField: UITextField) -> Bool {
+        print("ViewController textFieldShouldReturn")
+        let _ = self.textField.resignFirstResponder()
+        return true
+    }
 
 }
 
